@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce Throttle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Debounce Demo -->
+
+    <section class="search-section">
+
+        <h2>Debounce Demo</h2>
+
+        <p>
+            Type something below. The API call will happen
+            only after you stop typing for 500ms.
+        </p>
+
+        <input
+            id="searchInput"
+            type="text"
+            placeholder="Search users..."
+        >
+
+        <p id="searchStatus">
+            Start typing...
+        </p>
+
+        <ul id="results"></ul>
+
+    </section>
+
+
+    <!-- Throttle Demo -->
+
+    <section class="scroll-section">
+
+        <h2>Throttle Demo</h2>
+
+        <p>
+            Scroll the page and open the browser console.
+            The scroll position will be logged at most once
+            every 200ms.
+        </p>
+
+        <div class="large-content">
+            <p>Scroll down...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>Keep scrolling...</p>
+            <p>End of page.</p>
+        </div>
+
+    </section>
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html> 

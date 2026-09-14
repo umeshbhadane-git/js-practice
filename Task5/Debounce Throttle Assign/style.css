@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+}
+
+header {
+    padding: 40px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding: 40px;
+}
+
+.search-section {
+    min-height: 400px;
+}
+
+.search-section h2,
+.scroll-section h2 {
+    margin-top: 0;
+}
+
+input {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 12px;
+
+    font-size: 18px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: 2px solid #333;
+}
+
+#searchStatus {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#results {
+    max-width: 500px;
+    padding: 0;
+    list-style: none;
+}
+
+#results li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.scroll-section {
+    background-color: #f4f4f4;
+}
+
+.large-content {
+    min-height: 2000px;
+}
+
+.large-content p {
+    margin: 50px 0;
+}
