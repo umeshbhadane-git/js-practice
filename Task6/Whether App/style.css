@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #71aef8;
+}
+
+.weather-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    background: rgb(232, 235, 96);
+    border-radius: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: rgb(27, 24, 24);
+    color: white;
+}
+
+.weather-card {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #c3cedb;
+    border-radius: 8px;
+}
+
+.retry-button {
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
